@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
 
-driver = webdriver.Chrome('/home/leo/Downloads/chromedriver')
+driver = webdriver.Chrome('C:/Users/cumah/Downloads/workspace/sonarqube_test/webDriver/chromedriver.exe')
 driver.get("http://your-url")
 assert "Post Title" in driver.title
 link=driver.find_element_by_link_text("Add new")
